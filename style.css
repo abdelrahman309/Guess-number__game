@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62%;
+  box-sizing: border-box;
+}
+:root {
+  --light-color: #fff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #252525;
+  font-family: "Press Start 2P", sans-serif;
+}
+ul {
+  list-style: none;
+}
+/* ================ nav styling */
+nav {
+  padding: 2rem 3rem;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.again-btn {
+  background-color: var(--light-color);
+  padding: 1.5rem;
+  font-size: 1.9rem;
+  width: 200px;
+  cursor: pointer;
+  text-align: center;
+}
+.avarage-numbers {
+  font-size: 2rem;
+  color: var(--light-color);
+}
+/* styling - guess my number */
+.main-section__gusseing {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  color: var(--light-color);
+  align-items: center;
+  margin-top: 6rem;
+}
+.quest-heading {
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+}
+.question {
+  margin-top: 2rem;
+  font-size: 4rem;
+  background-color: var(--light-color);
+  color: black;
+  padding: 3rem;
+  text-align: center;
+  position: relative;
+}
+.line-quest {
+  position: absolute;
+  width: 100vw;
+  height: 7px;
+  background-color: var(--light-color);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.left-right__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 7rem;
+}
+section.righ {
+  display: flex;
+  flex-direction: column;
+  /* width: 118px; */
+  align-items: center;
+}
+h5 {
+  color: #fff;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+}
+p.label-score {
+  margin-bottom: 3rem;
+  color: #fff;
+  font-size: 2rem;
+}
+p.label-highscore {
+  color: #fff;
+  font-size: 2rem;
+}
+section.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+input#counter {
+  background-color: transparent;
+  height: 55px;
+  outline: none;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+}
+button.btn-check {
+  width: 112px;
+  background-color: transparent;
+  padding: 2rem;
+  color: #fff;
+  font-size: 1.7rem;
+}

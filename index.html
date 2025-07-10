@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>GUSSEING GAME</title>
+    <link
+      rel="stylesheet"
+      href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="again-btn">Again !</div>
+        <div class="avarage-numbers">&lt; Between 1 and 20 &gt;</div>
+      </div>
+    </nav>
+
+    <section class="main-section__gusseing">
+      <h1 class="quest-heading">Guess My Number !</h1>
+      <div class="question">
+        <p class="p-quest">?</p>
+        <div class="line-quest"></div>
+      </div>
+    </section>
+    <div class="left-right__container">
+      <section class="left">
+        <input
+          type="number"
+          name="number"
+          id="counter" />
+        <button class="btn-check">Check !</button>
+      </section>
+      <section class="righ">
+        <h5>start guessing . . .</h5>
+        <p class="label-score">💯 Score: <span class="score">20</span></p>
+        <p class="label-highscore">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+    </div>
+    <script src="sript.js"></script>
+  </body>
+</html>
